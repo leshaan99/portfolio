@@ -7,7 +7,7 @@ export const Navbar = () => {
 
         <nav className="nav-wrapper">
             <div className="nav-content">
-                <img className="logo" src="./" alt=""/>
+                <img className="logo" src="./assets/images/logo.png" alt=""/>
 
                 <ul>
                     <li>
@@ -28,6 +28,15 @@ export const Navbar = () => {
                     </button>
                     
                 </ul>
+
+                <button class="menu-btn" onClick={() => {}}>
+                    <span
+                        class={"material-symbols-outlined"}
+                        style={{fontSize:"1rem"}}
+                    >
+                        menu
+                    </span>
+                </button>
 
             </div>
         </nav>
