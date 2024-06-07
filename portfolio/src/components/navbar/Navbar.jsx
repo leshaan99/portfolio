@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
+import MobileNav from '../MobileNav/MobileNav';
 
-export const Navbar = () => {
+
+const Navbar = () => {
+
+    const [openMenu, setOpenMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setOpenMenu(!openMenu);
+    };
+
   return (
     <>
+        <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
 
         <nav className="nav-wrapper">
             <div className="nav-content">
@@ -29,19 +39,19 @@ export const Navbar = () => {
                     
                 </ul>
 
-                <button class="menu-btn" onClick={() => {}}>
+                <button class="menu-btn" onClick={toggleMenu}>
                     <span
                         class={"material-symbols-outlined"}
                         style={{fontSize:"1rem"}}
                     >
-                        menu
+                        {openMenu ? "close" : "menu"}
                     </span>
                 </button>
 
             </div>
         </nav>
     </>
-  )
-}
+  );
+};
 
 export default Navbar
