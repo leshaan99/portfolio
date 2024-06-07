@@ -13,20 +13,20 @@ const Hero = () => {
         <div className="hero-img">
             <div>
                 <div className="tech-icon">
-                    <img width="100px" src="./assets/images/tech1.png" alt=""/>
+                    <img src="./assets/images/tech1.png" alt=""/>
                 </div>
                 <img className="profile" width="400px" src="./assets/images/Profile.png" alt=""/>
             </div>
 
             <div>
                 <div className="tech-icon">
-                    <img width="100px" src="./assets/images/tech2.png" alt=""/>
+                    <img src="./assets/images/tech2.png" alt=""/>
                 </div>
                 <div className="tech-icon">
-                    <img width="100px" src="./assets/images/tech3.png" alt=""/>
+                    <img src="./assets/images/tech3.png" alt=""/>
                 </div>
                 <div className="tech-icon">
-                    <img width="100px" src="./assets/images/tech4.png" alt=""/>
+                    <img src="./assets/images/tech4.png" alt=""/>
                 </div>
             </div>
         </div>
