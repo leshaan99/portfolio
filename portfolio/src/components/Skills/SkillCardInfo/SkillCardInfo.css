@@ -52,3 +52,15 @@
     border-radius: 0.5rem;
     transition: all 0.5s ease-in-out;
 }
+
+@media (max-width: 1025px) {
+    .skills-info-card h6 {
+        font-size: 1.1rem;
+    }
+    .skill-info p {
+        font-size: 0.9rem;
+    }
+    .skills-info-content {
+        padding: 1.5rem;
+    }
+}
