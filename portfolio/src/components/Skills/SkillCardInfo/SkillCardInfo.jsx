@@ -1,10 +1,10 @@
 import React from 'react'
 import './SkillCardInfo.css'
 
-const SkillCardInfo = ({ heding, skills}) => {
+const SkillCardInfo = ({ heading, skills}) => {
   return (
     <div className="skills-info-card">
-        <h6>{heding}</h6>
+        <h6>{heading}</h6>
     </div>
   )
 }

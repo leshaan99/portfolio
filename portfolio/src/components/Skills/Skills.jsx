@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Skills.css'
 import SkillCard from './SkillCard/SkillCard'
 import { SKILLS } from '../../utils/data'
+import SkillCardInfo from './SkillCardInfo/SkillCardInfo'
 
 const Skills = () => {
 
@@ -22,13 +23,17 @@ const Skills = () => {
                   key={item.title}
                   iconUrl={item.icon}
                   title={item.title}
+                  isActive={selectSkill.title === item.title}
+                  onClick={() => {
+                    hadleSelectSkill(item);
+                  }}
                 />
               ))}
             </div>
             <div className="skills-info">
-              <SkillsInfoCard
-                heading={SelectedSkill.title}
-                skills={SelectedSkill.skills}
+              <SkillCardInfo
+                heading={selectSkill.title}
+                skills={selectSkill.skills}
               />
             </div>
         </div>
