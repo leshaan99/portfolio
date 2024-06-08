@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
+import ContactForm from './ContactForm/ContactForm'
 
 const Contact = () => {
   return (
@@ -13,8 +14,15 @@ const Contact = () => {
             iconUrl="./assets/images/email.png"
             text="leshansanjeewa25@gmail.com"
           />
+          <ContactInfoCard
+            iconUrl="./assets/images/github.png"
+            text="https://github.com/leshan99"
+          />
         </div>
-        <div style={{flex: 1}}></div>
+
+        <div style={{flex: 1}}>
+          <ContactForm/>
+        </div>
     </div>
 </section>
   )
