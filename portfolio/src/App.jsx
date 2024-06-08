@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Skills from './components/Skills/Skills'
+import Project from './components/Project/Project'
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       <div className="container">
         <Hero/>
         <Skills/>
+        <Project/>
       </div>
     </>
   )
