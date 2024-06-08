@@ -39,7 +39,11 @@ const Project = () => {
         <div className="project-content">
             <Slider ref={sliderRef} {...settings}>
                 {PROJECT.map((item) => (
-                    <ProjectCard key={item.title} details={item}/>
+                    <ProjectCard 
+                        key={item.title} 
+                        details={item}
+                        url={item.image}
+                        link={item.link}/>
             ))}
             </Slider>
         </div>

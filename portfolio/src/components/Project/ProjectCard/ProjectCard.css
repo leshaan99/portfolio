@@ -22,23 +22,10 @@
     margin-bottom: 1.3rem;
 }
 
-.project-card ul li {
-    list-style: none;
-    font-size: 0.8rem;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-    position: relative;
-}
-
-.project-card ul li::after {
-    content: "";
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: #6751b9;
+.image img{
+    width:100%;
+    height: auto;
     border-radius: 0.5rem;
-    position: absolute;
-    left: -1.3rem;
-    top: 0.35rem;
 }
 
 @media (max-width: 768px) {
@@ -46,9 +33,6 @@
         margin: 0;
     }
     .project-card h6 {
-        font-size: 0.75rem;
-    }
-    .project-card ul li {
         font-size: 0.75rem;
     }
 }

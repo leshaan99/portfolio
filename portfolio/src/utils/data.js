@@ -39,18 +39,21 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
-        title:"project 1",
-        language: "html, css",
-        link:["link"]
+        title:"Bag Shop E Commerce Web Site",
+        language: "PHP, HTML, CSS",
+        image: "./assets/images/project1.png",
+        link:'https://github.com/leshan99/Bag_Store'
     },
     {
-        title:"project 2",
-        language: "html, css",
-        link:["link"]
+        title:"Bag Shop E Commerce Web Site",
+        language: "PHP, HTML, CSS",
+        image: "./assets/images/project1.png",
+        link:'https://github.com/leshan99/Bag_Store'
     },
     {
-        title:"project 3",
-        language: "html, css",
-        link:["link"]
+        title:"Bag Shop E Commerce Web Site",
+        language: "PHP, HTML, CSS",
+        image: "./assets/images/project1.png",
+        link:'https://github.com/leshan99/Bag_Store'
     },
 ]
