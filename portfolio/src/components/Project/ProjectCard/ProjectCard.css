@@ -40,3 +40,15 @@
     left: -1.3rem;
     top: 0.35rem;
 }
+
+@media (max-width: 768px) {
+    .project-card {
+        margin: 0;
+    }
+    .project-card h6 {
+        font-size: 0.75rem;
+    }
+    .project-card ul li {
+        font-size: 0.75rem;
+    }
+}

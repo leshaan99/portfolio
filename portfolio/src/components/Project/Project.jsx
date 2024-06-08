@@ -24,19 +24,17 @@ const Project = () => {
             },
         ],
     };
+
+    const slideRight = () => {
+        sliderRef.current.slickNext();
+    }
+    const slideLeft = () => {
+        sliderRef.current.slickPrev();
+    }
+    
   return (
     <section className="project-container">
         <h5>Projects</h5>
-
-        <div className="experience-content">
-            <div className="arrow-right">
-                <span class="material-symbols-outlined">chevron_right</span>
-            </div>
-
-            <div className="arrow-left">
-                <span class="material-symbols-outlined">chevron_left</span>
-            </div>
-        </div>
 
         <div className="project-content">
             <Slider ref={sliderRef} {...settings}>
