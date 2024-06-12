@@ -1,1 +1,2 @@
-I create the portfolio website to show my skills, projects, contact information to the client. Using JavaScript, CSS and HTML.
+# Portfolio
+I created a portfolio website using ReactJs, Html, CSS, JavaScript. For showing my skills, projects and contact with a modern, responsive design.
