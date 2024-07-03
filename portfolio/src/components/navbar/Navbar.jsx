@@ -26,7 +26,7 @@ const Navbar = () => {
                     </li>
 
                     <button className="contact-btn" onClick={() => {
-                        document.getElementById('contact').scrollIntoView({behavior: "smooth"});
+                        document.getElementById('contact').scrollIntoView({behavior: "smooth",block: "end"});
                     }}>
                         Hire Me
                     </button>
