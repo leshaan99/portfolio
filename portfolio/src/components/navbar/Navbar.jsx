@@ -16,13 +16,13 @@ const Navbar = () => {
                         <Link activeClass='active' to='home' spy={true} smooth={true} offset={-110} duration={500} className="menu-item">Home</Link>
                     </li>
                     <li>
-                        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-270} duration={500} className="menu-item">Skills</Link>
+                        <Link activeClass='active' to='about' spy={true} smooth={true} offset={-160} duration={500} className="menu-item">About</Link>
+                    </li>
+                    <li>
+                        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-260} duration={500} className="menu-item">Skills</Link>
                     </li>
                     <li>
                         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-180} duration={500} className="menu-item">Projects</Link>
-                    </li>
-                    <li>
-                        <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-160} duration={500} className="menu-item">Contact</Link>
                     </li>
 
                     <button className="contact-btn" onClick={() => {

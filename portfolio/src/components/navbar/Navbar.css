@@ -76,7 +76,7 @@
 
 .contact-btn:hover {
     color: #a993fe;
-    background:#000;
+    background:rgba(22, 17, 47, 0.398);
     outline: 1.5px solid #a993fe;
 }
 
@@ -99,8 +99,12 @@
 
 .menu-btn:hover {
     color: #a993fe;
-    background: #000;
+    background: rgba(22, 17, 47, 0.398);
     border: 1px solid #a993fe;
+}
+
+.active {
+    color: #a993fe;
 }
 
 @media (max-width: 490px) {
