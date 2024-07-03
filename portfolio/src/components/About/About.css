@@ -1,0 +1,23 @@
+.about-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.about-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.about-content {
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    backdrop-filter: blur(1rem);
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem;
+}
