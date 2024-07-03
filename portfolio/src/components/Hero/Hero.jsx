@@ -24,10 +24,10 @@ const Hero = () => {
                     <img src="./assets/images/js.png" alt=""/>
                 </div>
                 <div className="tech-icon">
-                    <img src="./assets/images/html.png" alt=""/>
+                    <img src="./assets/images/docker.png" alt=""/>
                 </div>
                 <div className="tech-icon">
-                    <img src="./assets/images/github.png" alt=""/>
+                    <img src="./assets/images/linux.png" alt=""/>
                 </div>
             </div>
         </div>
