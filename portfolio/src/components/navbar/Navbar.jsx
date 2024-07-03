@@ -13,7 +13,7 @@ const Navbar = () => {
 
                 <ul>
                     <li>
-                        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-110} duration={500} className="menu-item">Home</Link>
+                        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className="menu-item">Home</Link>
                     </li>
                     <li>
                         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-160} duration={500} className="menu-item">About</Link>
