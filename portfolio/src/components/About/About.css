@@ -21,3 +21,18 @@
     margin: 0 auto;
     padding: 4rem;
 }
+
+@media (max-width: 768px) {  
+    .about-container h5 {
+        font-size: 1.3rem;
+    }
+    .about-container p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 425px) {  
+    .about-container p {
+        font-size: 0.7rem;
+    }
+}
