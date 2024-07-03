@@ -39,21 +39,24 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
-        title:"Bag Shop E Commerce Web Site",
-        language: "PHP, HTML, CSS",
-        image: "./assets/images/project1.png",
-        link:'https://github.com/leshan99/Bag_Store'
+        title:"Simple Portfolio",
+        language: "HTML, CSS",
+        text: "I create the simple portfolio using the html and css to show my skills, project and the way to the cantact me. This is one page web site.",
+        image: "./assets/images/simple portfolio.png",
+        link:'https://github.com/leshan99/Portfolio_Simple'
     },
     {
         title:"Bag Shop E Commerce Web Site",
         language: "PHP, HTML, CSS",
-        image: "./assets/images/project1.png",
+        text:"This website have customer, admin and super admin view. Super admin can handle the admins. Admin can handle the customers and add product, delete product and update product. Customers can view and buy the products.",
+        image: "./assets/images/bag store.png",
         link:'https://github.com/leshan99/Bag_Store'
     },
     {
-        title:"Bag Shop E Commerce Web Site",
-        language: "PHP, HTML, CSS",
-        image: "./assets/images/project1.png",
-        link:'https://github.com/leshan99/Bag_Store'
+        title:"MoMo E Commerce Web Application",
+        language: "PHP, MySql, HTML, CSS",
+        text:"I create a full stack e-commerce web application to do online shopping with an admin panel using React.js, REST API, Java, Spring Boot, MySQL. Customers can register on the website, search, and buy cool gadgets items.",
+        image: "./assets/images/momo.png",
+        link:'https://github.com/leshan99/MoMo'
     },
 ]

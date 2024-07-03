@@ -42,6 +42,7 @@ const Project = () => {
                     <ProjectCard 
                         key={item.title} 
                         details={item}
+                        about={item.text}
                         url={item.image}
                         link={item.link}/>
             ))}
