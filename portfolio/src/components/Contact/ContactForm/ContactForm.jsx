@@ -12,7 +12,7 @@ const ContactForm = () => {
             <input type="text" name="email" placeholder="Email"/>
             <textarea type="text" name="massage" placeholder="Massage" rows={3}/>
             
-            <button>SEND</button>
+            <button type='submit' value='send'>SUBMIT</button>
         </form>
     </div>
   )
