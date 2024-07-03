@@ -11,13 +11,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.25rem 0;
+    padding: 2.9rem;
     margin: 0 auto;
 }
 
 .logo {
-    width: 20rem;
-    height: auto;
+    width: 3rem;
 }
 
 .nav-content ul {

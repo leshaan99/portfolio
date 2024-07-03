@@ -30,6 +30,10 @@
     flex: 1;
 }
 
+.hero-content h5 {
+    color: #a993fe;
+}
+
 .hero-content {
     font-size: 3.8rem;
     font-weight: 600;
@@ -92,6 +96,10 @@
         font-size: 3rem;
         line-height: 4rem;
     }
+    .hero-container h5 {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
 
     .hero-container p {
         font-size: 0.9rem;
@@ -121,12 +129,13 @@
         margin: 2rem 0 2rem 0;
     }
 
-    .hero-container h2 {
+    .hero-container h5 {
         margin-top: 3rem;
     }
 
     .hero-content h2,
-    .hero-content p {
+    .hero-content p,
+    .hero-content h5 {
         width: auto;
         text-align: center;
     }
@@ -153,6 +162,11 @@
     .hero-content h2 {
         font-size: 2.2rem;
         line-height: 3rem;
+    }
+
+    .hero-content h5 {
+        font-size: 1.2rem;
+        line-height: 1.1rem;
     }
 
     .hero-content p {

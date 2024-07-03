@@ -7,7 +7,7 @@ const About = () => {
         <h5>About</h5>
 
         <div className="about-content">
-            <p>Hello! I'm Leshan Sanjeewa, a passionate Software Engineering undergraduate at the University of Kelaniya.My primary interest lies in DevOps engineering, and I'm continuously expanding my knowledge in UI/UX design, backend development, project management, information security, and various other facets of software engineering.My career aspirations are firmly rooted in the exciting field of cloud engineering</p>
+            <p>Hello! I'm Leshan Sanjeewa,<br></br> a passionate Software Engineering undergraduate at the University of Kelaniya.My primary interest lies in DevOps engineering, and I'm continuously expanding my knowledge in UI/UX design, backend development, project management, information security, and various other facets of software engineering.My career aspirations are firmly rooted in the exciting field of cloud engineering</p>
             <br></br>
             <p>In addition to my technical prowess, I possess a creative flair for design and video editing, proficiently using tools like Photoshop, Premiere Pro, and After Effects. My organizational skills shine through in planning, coordinating, and teamwork, complemented by my effective communication abilities.</p>
             <br></br>
