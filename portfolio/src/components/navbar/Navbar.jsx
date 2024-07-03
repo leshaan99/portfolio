@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-230} duration={500} className="menu-item">Skills</Link>
                     </li>
                     <li>
-                        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-160} duration={500} className="menu-item">Projects</Link>
+                        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-150} duration={500} className="menu-item">Projects</Link>
                     </li>
 
                     <button className="contact-btn" onClick={() => {
