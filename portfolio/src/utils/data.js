@@ -59,4 +59,11 @@ export const PROJECT = [
         image: "./assets/images/momo.png",
         link:'https://github.com/leshan99/MoMo'
     },
+    {
+        title:"On line Liqur Store Front End",
+        language: "React, HTML, CSS",
+        text:"I create a full stack e-commerce web application front end to do online shopping using React.js, CSS. Customers can view the product. Simple design use for easy to use and more user atraction.",
+        image: "./assets/images/liqur store.png",
+        link:'https://github.com/leshan99/front-end'
+    },
 ]
