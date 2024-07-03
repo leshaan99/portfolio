@@ -1,20 +1,11 @@
-import React, { useState } from 'react'
+import React, {} from 'react'
 import './Navbar.css'
-import MobileNav from '../MobileNav/MobileNav';
 import { Link } from 'react-scroll';
 
 
 const Navbar = () => {
 
-    const [openMenu, setOpenMenu] = useState(false);
-
-    const toggleMenu = () => {
-        setOpenMenu(!openMenu);
-    };
-
   return (
-    <>
-        <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
 
         <nav className="nav-wrapper">
             <div className="nav-content">
@@ -34,25 +25,17 @@ const Navbar = () => {
                         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-160} duration={500} className="menu-item">Contact</Link>
                     </li>
 
-                    <button className="contact-btn" onClick={() => {}}>
+                    <button className="contact-btn" onClick={() => {
+                        document.getElementById('contact').scrollIntoView({behavior: "smooth"});
+                    }}>
                         Hire Me
                     </button>
                     
                 </ul>
 
-                <button class="menu-btn" onClick={toggleMenu}>
-                    <span
-                        class={"material-symbols-outlined"}
-                        style={{fontSize:"1rem"}}
-                    >
-                        {openMenu ? "close" : "menu"}
-                    </span>
-                </button>
-
             </div>
         </nav>
-    </>
   );
-};
+}
 
 export default Navbar

@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './Contact.css'
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
 import ContactForm from './ContactForm/ContactForm'
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact-container">
+    <section id='contact' className="contact-container">
     <h5>Contact</h5>
 
     <div className="contact-content">
