@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-        © Leshan Sanjeewa
+        © 2024 Leshan Sanjeewa. All Rights Reserved.
     </div>
   )
 }
