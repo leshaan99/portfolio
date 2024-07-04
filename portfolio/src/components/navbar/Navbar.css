@@ -112,7 +112,36 @@
     filter: brightness(0) invert(1);
 }
 
+.mobilenav {
+    display: flex;
+    position: absolute;
+    top: 9rem;
+    right: 2rem;
+    z-index: 2;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-width: 10rem;
+    background: rgba(22, 17, 47, 0.951);
+    border-radius: 0.5rem;
+    text-align: left;
+}
 
+.mobilenav ul {
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.mobilenav li {
+    margin: 0.25rem 1.5rem;
+    padding: 0.5rem 3rem;
+}
+
+.menulogo {
+    display: none;
+    height: auto;
+
+}
 
 @media (max-width: 490px) {
     .logo {
@@ -126,6 +155,9 @@
     }
     .nav-content ul {
         display: none;
+    }
+    .menulogo {
+        display: flex;
     }
 }
 

@@ -44,13 +44,13 @@ const Navbar = () => {
             <div className="mobilenav" style={{display: showMenu? 'flex':'none'}}>
                 <ul>
                     <li>
-                        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-80} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>Home</Link>
+                        <Link activeClass='active' to='home' spy={true} smooth={true} offset={-120} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>Home</Link>
                     </li>
                     <li>
                         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-140} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>About</Link>
                     </li>
                     <li>
-                        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-230} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>Skills</Link>
+                        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-700} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>Skills</Link>
                     </li>
                     <li>
                         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-150} duration={500} className="mobile-menu-item" onClick={() => setShowMenu(false)}>Projects</Link>
