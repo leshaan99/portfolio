@@ -1,16 +1,35 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './ContactForm.css'
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_wecqs6m', 'template_136zo1i', form.current, {
+        publicKey: 'HnUgb_YK2leh3LQBD',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <div className="contact-form-content">
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
             <div className="name-container">
-                <input type="text" name="firstname" placeholder="First Name"/>
-                <input type="text" name="lastname" placeholder="Last Name"/>
+                <input type="text" name="from_name" placeholder="Full Name"/>
             </div>
-            <input type="text" name="email" placeholder="Email"/>
-            <textarea type="text" name="massage" placeholder="Massage" rows={3}/>
+            <input type="text" name="from_email" placeholder="Email"/>
+            <textarea type="text" name="message" placeholder="Massage" rows={3}/>
             
             <button type='submit' value='send'>SUBMIT</button>
         </form>
