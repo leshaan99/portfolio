@@ -106,6 +106,14 @@
     color: #a993fe;
 }
 
+.menulogo {
+    width: 3rem;
+    height:auto;
+    filter: brightness(0) invert(1);
+}
+
+
+
 @media (max-width: 490px) {
     .logo {
         width: 3rem;
