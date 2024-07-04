@@ -113,17 +113,18 @@
 }
 
 .mobilenav {
+    height: 100vh;
     display: flex;
     position: absolute;
-    top: 9rem;
+    top: 8.75rem;
     right: 2rem;
     z-index: 2;
     flex-direction: column;
     padding: 0.5rem;
     min-width: 10rem;
-    background: rgba(22, 17, 47, 0.951);
-    border-radius: 0.5rem;
+    max-width:max-content;
     text-align: left;
+    background: rgba(22, 17, 47, 0.9);
 }
 
 .mobilenav ul {
@@ -133,8 +134,8 @@
 }
 
 .mobilenav li {
-    margin: 0.25rem 1.5rem;
-    padding: 0.5rem 3rem;
+    margin: 0.25rem 3rem;
+    padding: 1rem;
 }
 
 .menulogo {
