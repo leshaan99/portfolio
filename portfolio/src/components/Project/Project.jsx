@@ -24,13 +24,6 @@ const Project = () => {
             },
         ],
     };
-
-    const slideRight = () => {
-        sliderRef.current.slickNext();
-    }
-    const slideLeft = () => {
-        sliderRef.current.slickPrev();
-    }
     
   return (
     <section id="projects" className="project-container">
