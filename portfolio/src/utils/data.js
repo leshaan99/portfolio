@@ -39,31 +39,38 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
-        title:"Simple Portfolio",
-        language: "HTML, CSS",
-        text: "I create the simple portfolio using the html and css to show my skills, project and the way to the cantact me. This is one page web site.",
-        image: "./assets/images/simple portfolio.png",
-        link:'https://github.com/leshan99/Portfolio_Simple'
+        title:"Bank Modern Application - Individual",
+        language: "Vite + React | Html | Tailwind CSS",
+        text: "Developed and dockerized a responsive React JS web application focused on delivering an engaging and visually appealing user experience with a hero section, high-quality assets, business stats, reusable features, call-to-action buttons, and client testimonials for an engaging user experience.",
+        image: "./assets/images/bank app.png",
+        link:'https://github.com/leshaan99/Bank-Modern-App'
     },
     {
-        title:"Bag Shop E Commerce Web Site",
-        language: "PHP, HTML, CSS",
-        text:"This website have customer, admin and super admin view. Super admin can handle the admins. Admin can handle the customers and add product, delete product and update product. Customers can view and buy the products.",
-        image: "./assets/images/bag store.png",
-        link:'https://github.com/leshan99/Bag_Store'
-    },
-    {
-        title:"MoMo E Commerce Web Application",
-        language: "PHP, MySql, HTML, CSS",
-        text:"I create a full stack e-commerce web application to do online shopping with an admin panel using React.js, REST API, Java, Spring Boot, MySQL. Customers can register on the website, search, and buy cool gadgets items.",
+        title:"Online Cool Gadgets Store - Group",
+        language: "PHP | HTML | CSS | MySQL",
+        text: "Developed a comprehensive full-stack e-commerce web application designed for online shopping. Key features include User signup, login and profile management, intuitive search functionality, integrated shopping cart, admin dashboard for managing products, orders, and users, providing full control over the e-commerce platform.",
         image: "./assets/images/momo.png",
-        link:'https://github.com/leshan99/MoMo'
+        link:'https://github.com/leshaan99/MoMo'
     },
     {
-        title:"On line Liqur Store Front End",
-        language: "React, HTML, CSS",
-        text:"I create a full stack e-commerce web application front end to do online shopping using React.js, CSS. Customers can view the product. Simple design use for easy to use and more user atraction.",
+        title:"On line Liqur Store Front End - Group",
+        language: "React | HTML | CSS",
+        text:"Developed a full-stack e-commerce web application frontend for online shopping. The application enables customers to browse products effortlessly, with a focus on a clean, user-friendly design that enhances usability and maximizes user engagement.",
         image: "./assets/images/liqur store.png",
         link:'https://github.com/leshan99/front-end'
+    },
+    {
+        title:"Bag Shop E Commerce Web Site - Individual",
+        language: "PHP | MySql | HTML | CSS",
+        text:"Built a web application with distinct customer and admin views. The super admin manages admins, while admins handle customer interactions and product management. Customers can easily browse and purchase products.",
+        image: "./assets/images/bag store.png",
+        link:'https://github.com/leshaan99/Bag_Store'
+    },
+    {
+        title:"Simple Portfolio - Individual",
+        language: "JavaScript | HTML | CSS",
+        text:"Developed a one-page portfolio website effectively showcase my skills, highlight my projects, and provide a clear way to contact me. The design is simple yet professional, ensuring easy navigation and a strong online presence.",
+        image: "./assets/images/simple portfolio.png",
+        link:'https://github.com/leshaan99/Portfolio_Simple'
     },
 ]
