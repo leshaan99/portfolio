@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <section id="home" className="hero-container">
         <div className="hero-content">
-            <h5>Hello! I'm Leshan,</h5>
+            <h5>Hiii ! I'm Leshan,</h5>
             <h2>Transforming Ideas into Digital Realities</h2>
-            <p>DevOps | Cloud Engineer | Frontend Developer</p>
+            <p>DevOps Engineer | Full-Stack Developer</p>
         </div>
 
         <div className="hero-img">
