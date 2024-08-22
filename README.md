@@ -1,2 +1,4 @@
 # Portfolio
-This portfolio website uses to showcase my personal skills, projects, and contact information. In this portfolio website using a modern and responsive design. The application is containerized with Docker, utilizing a Dockerfile based on the node:20.11-alpine image for a lightweight and efficient deployment.
+Developed a personal portfolio website using React to showcase my skills, projects, and contact information. The site features a modern and responsive design, ensuring an optimal viewing experience across various devices.The application is containerized using Docker, leveraging a Dockerfile based on the node:20.11-alpine image for a lightweight and efficient deployment. The portfolio is deployed on Netlify for seamless access and performance.
+
+You can explore my portfolio here: https://leshan-portfolio.netlify.app
