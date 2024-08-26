@@ -15,10 +15,12 @@ const ContactForm = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          window.alert('Email sent successfully!');
           e.target.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
+          window.alert('Failed to send email. Please try again later.');
         },
       );
   };
@@ -26,10 +28,10 @@ const ContactForm = () => {
     <div className="contact-form-content">
         <form ref={form} onSubmit={sendEmail}>
             <div className="name-container">
-                <input type="text" name="from_name" placeholder="Full Name"/>
+                <input type="text" name="from_name" placeholder="Full Name" required/>
             </div>
-            <input type="text" name="from_email" placeholder="Email"/>
-            <textarea type="text" name="message" placeholder="Massage" rows={3}/>
+            <input type="text" name="from_email" placeholder="Email" required/>
+            <textarea type="text" name="message" placeholder="Massage" rows={3} required/>
             
             <button type='submit' value='send'>SUBMIT</button>
         </form>
