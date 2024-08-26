@@ -14,6 +14,27 @@
     gap: 3rem;
 }
 
+.download-resume-button {
+    margin-top: 5rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: 1.5px solid #a892fe;
+    border-radius: 0.6rem;
+    background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+    padding: 0.7rem 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.download-resume-button:hover {
+    color: #a892fe;
+    background: transparent;
+}
+
 @media (max-width: 768px) {
     .contact-content {
         flex-direction: column-reverse;
