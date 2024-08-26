@@ -39,11 +39,25 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
+        title:"Employee Management System - Individual",
+        language: "Spring Boot | MySql | Html | JavaScript | Boostrap",
+        text: "This web application is designed to manage employee data through essential CRUD operations. Allows users to easilysave, retrieve, update, and delete employee records. Thefrontend and backend are connected via a RESTful API,ensuring smooth communication and data exchangebetween the client and server.",
+        image: "./assets/images/ems.png",
+        link:'https://github.com/leshaan99/Employee-Managment-System'
+    },
+    {
         title:"Bank Modern Application - Individual",
         language: "Vite + React | Html | Tailwind CSS",
         text: "Developed and dockerized a responsive React JS web application focused on delivering an engaging and visually appealing user experience with a hero section, high-quality assets, business stats, reusable features, call-to-action buttons, and client testimonials for an engaging user experience.",
         image: "./assets/images/bank app.png",
         link:'https://github.com/leshaan99/Bank-Modern-App'
+    },
+    {
+        title:"Personal Portfolio - Individual",
+        language: "ReactJS | Html | CSS | JavaScript",
+        text: "Developed a personal portfolio website using React to showcase my skills, projects, and contact information. The site features a modern and responsive design, ensuring an optimal viewing experience across various devices.The application is containerized using Docker, leveraging a Dockerfile based on the node:20.11-alpine image for a lightweight and efficient deployment.",
+        image: "./assets/images/portfolio.png",
+        link:'https://github.com/leshaan99/Portfolio'
     },
     {
         title:"Online Cool Gadgets Store - Group",
