@@ -30,6 +30,11 @@ const Contact = () => {
 
         <div style={{flex: 1}}>
           <ContactForm/>
+          <div style={{textAlign: 'center', marginTop: '20px'}}>
+            <a href="./assets/files/CV - Leshan Sanjeewa.pdf" download="Leshan_Sanjeewa_Resume.pdf" className="download-resume-button">
+              Download my Resume
+            </a>
+          </div>
         </div>
     </div>
 </section>
