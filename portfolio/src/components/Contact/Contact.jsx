@@ -22,6 +22,11 @@ const Contact = () => {
             text1="GitHub"
           />
           <ContactInfoCard
+            iconUrl="./assets/images/medium.png"
+            text="https://medium.com/@leshaan99"
+            text1="Medium"
+          />
+          <ContactInfoCard
             iconUrl="./assets/images/facebook.png"
             text="https://facebook.com/leshaan99"
             text1="FaceBook"
