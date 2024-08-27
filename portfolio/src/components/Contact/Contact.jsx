@@ -26,11 +26,6 @@ const Contact = () => {
             text="https://medium.com/@leshaan99"
             text1="Medium"
           />
-          <ContactInfoCard
-            iconUrl="./assets/images/facebook.png"
-            text="https://facebook.com/leshaan99"
-            text1="FaceBook"
-          />
         </div>
 
         <div style={{flex: 1}}>
