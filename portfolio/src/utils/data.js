@@ -42,7 +42,7 @@ export const PROJECT = [
         title:"Employee Management System - Individual",
         language: "Spring Boot | MySql | Html | JavaScript | Boostrap",
         text: "This web application is designed to manage employee data through essential CRUD operations. Allows users to easilysave, retrieve, update, and delete employee records. Thefrontend and backend are connected via a RESTful API,ensuring smooth communication and data exchangebetween the client and server.",
-        image: "./assets/images/ems.png",
+ 
         link:'https://github.com/leshaan99/Employee-Managment-System',
         video: "./assets/videos/CT2 Demo.mp4"
     },
