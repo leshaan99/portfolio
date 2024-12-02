@@ -39,6 +39,13 @@ export const SKILLS = [
 
 export const PROJECT = [
     {
+        title:"Currency Converter App - Individual",
+        language: "Spring Boot | MySql | Html | JavaScript | Boostrap",
+        text: "Developed a full-stack web application using React, Node.js, and the Open Exchange Rates API to convert currencies based on current or historical exchange rates. Designed a fully responsive interface with Tailwind CSS and implemented efficient API communication with Axios.",
+        image: "./assets/images/ct2.png",
+        link:'https://github.com/leshaan99/currency-converter-app'
+    },
+    {
         title:"Employee Management System - Individual",
         language: "Spring Boot | MySql | Html | JavaScript | Boostrap",
         text: "This web application is designed to manage employee data through essential CRUD operations. Allows users to easilysave, retrieve, update, and delete employee records. Thefrontend and backend are connected via a RESTful API,ensuring smooth communication and data exchangebetween the client and server.",
