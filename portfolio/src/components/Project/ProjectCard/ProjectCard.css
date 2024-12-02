@@ -28,10 +28,15 @@
     margin-bottom: 1.2rem;
 }
 
-.image img{
-    width:100%;
+.image img, .media video {
+    width: 100%;
     height: auto;
     border-radius: 0.5rem;
+}
+
+.media video {
+    max-height: 300px; 
+    object-fit: cover; 
 }
 
 @media (max-width: 768px) {
