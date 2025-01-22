@@ -12,7 +12,7 @@ const Project = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: ,
+        slidesToScroll: 1,
         arrow:false,
         responsive: [
             {
